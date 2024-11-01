@@ -5,7 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Run jekyll serve -l -H localhost 
+# jekyll serve -l -H localhost 
+# bundle exec jekyll serve -l -H localhost 
   # to generate the HTML and serve it from localhost:4000 the local server will automatically rebuild and refresh the pages on change.
 
 # Site Settings
@@ -86,11 +87,13 @@ author:
   name             : "Bruno Fava"
   avatar           : "profile4.jpg"
   bio              : "PhD Candidate in Economics"
-  #location         : "Evanston, IL"
   employer         : "Northwestern University"
+  email            : "brunovnfava@gmail.com"
+  # cv               : "https://bfava.github.io/files/cv.pdf"
+  github           : "bfava"
+  #location         : "Evanston, IL"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "brunovnfava@gmail.com"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -99,7 +102,6 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "bfava"
   google_plus      :
   keybase          :
   instagram        :
@@ -178,87 +180,22 @@ kramdown:
 
 # Collections
 collections:
-  research:
-    output: true
-    permalink: /:collection/:path/
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # research:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
   # _research
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #     path: ""
+  #     type: publications
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
 
 # Sass/SCSS
 sass:
@@ -270,7 +207,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

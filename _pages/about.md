@@ -1,50 +1,68 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Bruno Fava"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+layout: archive
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I'm a PhD Candidate in the Economics Department at Northwestern University. My main interest is in Econometrics with applications to Development Economics.
 
-A data-driven personal website
+Working Papers
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<ol>
+  <li>Predicting the Distribution of Treatment Effects: A Covariate-Adjustment Approach <a href="https://arxiv.org/abs/2407.14635" target="_blank">[arxiv]</a> <a href="https://drive.google.com/file/d/1n996r1MvrwKYUrh8b3TC5iTwEjddE52s/view?usp=sharing" target="_blank">[Presentation MEG 2024]</a> <button onclick="toggleAbstract('abstract_dte', 'arrowNew')" style="font-family: sans-serif; background-color: transparent; border: none; color: black; cursor: pointer; display: inline;">Abstract <span id="arrowNew" style="color: #ADD8E6;">▶</span></button><br>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+  <div id="abstract_dte" style="display:none; margin-top: 5px; margin-left: 20px;">
+  <p>Important questions for impact evaluation require knowledge not only of average effects, but of the distribution of treatment effects. What proportion of people are harmed? Does a policy help many by a little? Or a few by a lot? The inability to observe individual counterfactuals makes these empirical questions challenging. But what if counterfactuals can be predicted? I propose an approach to inference on points of the distribution of treatment effects that incorporates predicted individual impacts through covariate adjustment. I show the approach is flexible in that any machine learning algorithm can be used: if predictions are accurate, the resulting confidence interval is small; if predictions are poor, it is wide but valid. Finally, I revisit five RCTs in microcredit and find evidence that, on average, at least 12.5% of the study populations were negatively affected by the treatment (3.5% if covariates are not considered) and at least 13.6% benefited (5.3%).</p>
+  </div>
+  </li>
+</ol>
 
-Getting started
+Publications
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<ol>
+  <li>Probabilistic Nearest Neighbors Classification <a href="https://doi.org/10.3390/e26010039" target="_blank">[pdf]</a> <a href="https://github.com/paulocmarquesf/pnnclass" target="_blank">[R Package]</a> <button onclick="toggleAbstract('abstract1', 'arrow1')" style="font-family: sans-serif; background-color: transparent; border: none; color: black; cursor: pointer; display: inline;">Abstract <span id="arrow1" style="color: #ADD8E6;">▶</span></button><br>
+  (With Paulo C. Marques F. and Hedibert F. Lopes)
+  Entropy, 2024, 26, 39.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+  <div id="abstract1" style="display:none; margin-top: 5px; margin-left: 20px;">
+  <p>Analysis of the currently established Bayesian nearest neighbors classification model points to a connection between the computation of its normalizing constant and issues of NP-completeness. An alternative predictive model constructed by aggregating the predictive distributions of simpler nonlocal models is proposed, and analytic expressions for the normalizing constants of these nonlocal models are derived, ensuring polynomial time computation without approximations. Experiments with synthetic and real datasets showcase the predictive performance of the proposed predictive model.</p>
+  </div>
+  </li>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+  <li>The Illusion of the Illusion of Sparsity: An exercise in prior sensitivity <a href="https://projecteuclid.org/journals/brazilian-journal-of-probability-and-statistics/volume-35/issue-4/The-illusion-of-the-illusion-of-sparsity--An-exercise/10.1214/21-BJPS503.full" target="_blank">[pdf]</a> <a href="https://github.com/bfava/IllusionOfIllusion" target="_blank">[code]</a><button onclick="toggleAbstract('abstract2', 'arrow2')" style="font-family: sans-serif; background-color: transparent; border: none; color: black; cursor: pointer; display: inline;">Abstract <span id="arrow2" style="color: #ADD8E6;">▶</span></button><br>
+  (With Hedibert F. Lopes)
+  Brazilian Journal of Probability and Statistics, 2021, Vol. 35, No. 4, 699-720.
 
-**Markdown generator**
+  <div id="abstract2" style="display:none; margin-top: 5px; margin-left: 20px;">
+  <p>The emergence of Big Data raises the question of how to model economic relations when there is a large number of possible explanatory variables. We revisit the issue by comparing the possibility of using dense or sparse models in a Bayesian approach, allowing for variable selection and shrinkage. More specifically, we discuss the results reached by Giannone, Lenza and Primiceri (2020) through a “Spike-and-Slab” prior, which suggest an “illusion of sparsity” in Economics datasets, as no clear patterns of sparsity could be detected. We make a further revision of the posterior distributions of the model, and propose three experiments to evaluate the robustness of the adopted prior distribution. We find that the pattern of sparsity is sensitive to the prior distribution of the regression coefficients, and present evidence that the model indirectly induces variable selection and shrinkage, which suggests that the “illusion of sparsity” could be, itself, an illusion. Code is available on Github.</p>
+  </div>
+  </li>
+</ol>
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<script>
+function toggleAbstract(abstractId, arrowId) {
+  var abstract = document.getElementById(abstractId);
+  var arrow = document.getElementById(arrowId);
+  if (abstract.style.display === "none") {
+    abstract.style.display = "block";
+    arrow.innerHTML = "▼";
+  } else {
+    abstract.style.display = "none";
+    arrow.innerHTML = "▶";
+  }
+}
+</script>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Work in Progress
+======
+<ol>
+  <li>Algorithmic Bias in Microcredit: Consequences of Data-Driven Lending Practices <br>
+  (With Susan Athey, Dean Karlan, Adam Osman and Jonathan Zinman)
+  </li>
+</ol>
