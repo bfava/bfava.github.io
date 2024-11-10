@@ -16,9 +16,7 @@ Working Papers
 <ol>
   <li>Predicting the Distribution of Treatment Effects: A Covariate-Adjustment Approach <a href="https://arxiv.org/abs/2407.14635" target="_blank">[arxiv]</a> <a href="https://drive.google.com/file/d/18xZ5d0_dP2jdgYQwgVS7Kq-J1Uv0t0rV/view?usp=share_link" target="_blank">[Presentation MEG 2024]</a> <button onclick="toggleAbstract('abstract_dte', 'arrowNew')" style="font-family: sans-serif; background-color: transparent; border: none; color: black; cursor: pointer; display: inline;">Abstract <span id="arrowNew" style="color: #ADD8E6;">▶</span></button><br>
 
-  <p>
-    <strong>Best Student Paper Award</strong> at the <em>32nd Midwest Econometrics Group Annual Conference (2024)</em>
-  </p>
+  <strong>Best Student Paper Award</strong> at the <em>32nd Midwest Econometrics Group Annual Conference (2024)</em>
 
   <div id="abstract_dte" style="display:none; margin-top: 5px; margin-left: 20px;">
   <p>Important questions for impact evaluation require knowledge not only of average effects, but of the distribution of treatment effects. What proportion of people are harmed? Does a policy help many by a little? Or a few by a lot? The inability to observe individual counterfactuals makes these empirical questions challenging. But what if counterfactuals can be predicted? I propose an approach to inference on points of the distribution of treatment effects that incorporates predicted individual impacts through covariate adjustment. I show the approach is flexible in that any machine learning algorithm can be used: if predictions are accurate, the resulting confidence interval is small; if predictions are poor, it is wide but valid. Finally, I revisit five RCTs in microcredit and find evidence that, on average, at least 12.5% of the study populations were negatively affected by the treatment (3.5% if covariates are not considered) and at least 13.6% benefited (5.3%).</p>
