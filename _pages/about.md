@@ -14,7 +14,7 @@ I'm a PhD Candidate in the Economics Department at Northwestern University. My m
 Working Papers
 ======
 <ol>
-  <li>Predicting the Distribution of Treatment Effects: A Covariate-Adjustment Approach <a href="https://arxiv.org/abs/2407.14635" target="_blank">[arxiv]</a> <a href="https://drive.google.com/file/d/18xZ5d0_dP2jdgYQwgVS7Kq-J1Uv0t0rV/view?usp=share_link" target="_blank">[Presentation MEG 2024]</a> <button onclick="toggleAbstract('abstract_dte', 'arrowNew')" style="font-family: sans-serif; background-color: transparent; border: none; color: black; cursor: pointer; display: inline;">Abstract <span id="arrowNew" style="color: #ADD8E6;">▶</span></button><br>
+  <li>Predicting the Distribution of Treatment Effects: A Covariate-Adjustment Approach <a href="https://arxiv.org/abs/2407.14635" target="_blank">[arxiv]</a> <a href="https://drive.google.com/file/d/18xZ5d0_dP2jdgYQwgVS7Kq-J1Uv0t0rV/view?usp=share_link" target="_blank">[Presentation MEG 2024]</a> <a href="https://drive.google.com/file/d/1IAugl8tr4uQKMqy41RKKn7c2MWHzgPxN/view?usp=sharing" target="_blank">[P]</a> <button onclick="toggleAbstract('abstract_dte', 'arrowNew')" style="font-family: sans-serif; background-color: transparent; border: none; color: black; cursor: pointer; display: inline;">Abstract <span id="arrowNew" style="color: #ADD8E6;">▶</span></button><br>
 
   <strong>Best Student Paper Award</strong> at the <em>32nd Midwest Econometrics Group Annual Conference (2024)</em>
 
